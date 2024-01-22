@@ -1,0 +1,59 @@
+/* #FFBF0A */
+/* #212121 */
+/* #2E2E2E */
+/* font-family: 'Montserrat', sans-serif; */
+
+body {
+    margin: 0;
+}
+
+/* NAVBAR */
+.nav {
+    background-color: #212121;
+    margin: 0;
+    height: 75px;
+    line-height: 75px;
+}
+.navButtons{
+    /* margin-left: 50px; */
+    text-align: center;
+}
+.navButton {
+    text-decoration: none;    
+    color: #fff;
+    margin-left: 10px;
+    background-color: transparent;
+    transition: color 0.5s, text-shadow 0.5s;
+}
+.navButton:hover {
+    color: #FFBF0A;
+    text-shadow: 0 0 0px #FFBF0A, 0 0 40px #fff;
+}
+
+#buttonRight {
+ border: 1px solid transparent;
+ border-left: 1px solid #fff;
+ padding-left: 10px;
+}
+
+
+/* button link */
+.button {
+    text-decoration: none;
+    color: #000;
+    background-color: #FFBF0A;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+
+.button:active {
+    transform: scale(0.7) !important;
+}
+
+#button {
+    margin-top: 50px;
+}
+
